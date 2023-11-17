@@ -1,0 +1,304 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+#head .mobile-burger {
+  display: none;
+  font-size: 40px;
+}
+@media (max-width: 575px) {
+  #head .mobile-burger {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  #head .mobile-burger {
+    display: block;
+  }
+}
+#head .logo {
+  font-size: 15px;
+}
+#head .logo h1 {
+  font-weight: 100;
+}
+@media (max-width: 575px) {
+  #head .head-list {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #head .head-list {
+    display: none;
+  }
+}
+#head .head-list .blog {
+  list-style-type: none;
+  display: flex;
+}
+#head .head-list .blog li {
+  margin: 0px 50px;
+  font-size: 15px;
+  font-weight: 70;
+}
+#head .head-list .blog li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 575px) {
+  main {
+    flex-wrap: wrap;
+  }
+}
+main .free {
+  height: 80px;
+  padding: 5px 3px;
+  background-color: black;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+main .free p {
+  font-size: 18px;
+}
+main .free h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+main .demo-1 {
+  display: flex;
+}
+@media (max-width: 575px) {
+  main .demo-1 {
+    flex-wrap: wrap-reverse;
+  }
+}
+main .demo-1 .photo-1 img {
+  width: 770px;
+  height: 800px;
+  margin-top: -0.1%;
+}
+@media (max-width: 575px) {
+  main .demo-1 .photo-1 img {
+    width: 320px;
+  }
+}
+main .demo-1 .backround {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 11, 11);
+  width: 60%;
+  height: 799px;
+}
+@media (max-width: 575px) {
+  main .demo-1 .backround {
+    width: 320px;
+    height: 300px;
+  }
+}
+main .demo-1 .backround .refresh h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 200;
+}
+main .demo-1 .backround .refresh p {
+  font-size: 20px;
+  color: white;
+}
+main .demo-1 .backround .refresh button {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  width: 140px;
+  height: 50px;
+}
+main .demo-2 {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+@media (max-width: 575px) {
+  main .demo-2 {
+    flex-wrap: wrap;
+    width: 340px;
+    height: 550px;
+  }
+}
+main .demo-2 .photos-2 {
+  justify-content: space-around;
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 575px) {
+  main .demo-2 .photos-2 {
+    flex-wrap: wrap;
+  }
+}
+main .demo-2 .photos-2 img {
+  width: 300px;
+  height: 500px;
+}
+main .demo-2 .backround-2 {
+  width: 100%;
+}
+main .demo-2 .backround-2 .fall {
+  align-items: center;
+  justify-content: center;
+}
+main .demo-2 .backround-2 .fall h1 {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: 200;
+}
+main .demo-2 .backround-2 .fall p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+main .demo-2 .backround-2 .fall button {
+  color: rgb(249, 244, 244);
+  background-color: rgb(0, 0, 0);
+  width: 140px;
+  height: 50px;
+}
+main .isnpired {
+  margin-top: 10%;
+  background-image: url(../assets/images/img-YDz318GZ0WuvBwLgzindex.\ webp.webp);
+  height: 500px;
+}
+@media (max-width: 575px) {
+  main .isnpired {
+    width: 320px;
+  }
+}
+main .isnpired h2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  color: white;
+  font-size: 60px;
+  font-weight: 200;
+}
+main .down-photos {
+  margin-top: 10%;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 575px) {
+  main .down-photos {
+    flex-wrap: wrap;
+    width: 340px;
+    height: 550px;
+  }
+}
+main .down-photos .fall-1 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: 200;
+}
+main .down-photos .fall-1 p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+main .down-photos .fall-1 button {
+  color: rgb(249, 244, 244);
+  background-color: rgb(0, 0, 0);
+  width: 140px;
+  height: 50px;
+}
+main .down-photos .fall-2 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: 200;
+}
+main .down-photos .fall-2 p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+main .down-photos .fall-2 button {
+  color: rgb(249, 244, 244);
+  background-color: rgb(0, 0, 0);
+  width: 140px;
+  height: 50px;
+}
+main .down-photos img {
+  width: 680px;
+  height: 450px;
+}
+main .never {
+  background-image: url(../assets/images/img-m57zVv6WWeTX3eepson.webp);
+  width: 100%;
+  height: 650px;
+  margin-top: 7%;
+  background-size: cover;
+}
+main .never .never-text {
+  font-size: 30px;
+  flex-wrap: wrap;
+  padding: 10% 10% 10%;
+}
+main .never .never-text h1 {
+  color: white;
+}
+main .never .never-text h2 {
+  color: white;
+}
+main .never .never-text input {
+  width: 400px;
+  height: 50px;
+}
+main .never .never-text button {
+  color: rgb(249, 244, 244);
+  background-color: rgb(0, 0, 0);
+  width: 140px;
+  height: 50px;
+}
+
+footer {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .ned {
+  margin-top: 90px;
+}
+footer .ned .icons {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+footer .ned h2 {
+  font-weight: 200;
+}
+footer .ned h3 {
+  font-weight: 200;
+}
+footer .blog {
+  list-style-type: none;
+  line-height: 80px;
+  padding-top: 80px;
+}
+footer .blog li {
+  margin: 0px 20px;
+  font-size: 20px;
+  font-weight: 70;
+}
+footer .blog li a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
